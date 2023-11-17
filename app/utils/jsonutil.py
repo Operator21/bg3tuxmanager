@@ -1,9 +1,14 @@
 import json
+import os
 from app.model.mod import Mod
 
 class JsonLoader:
     @staticmethod
     def load_mods_from_file(file_path):
+        if not os.path.exists(file_path):
+            print(f"File {file_path} does not exist.")
+            return None
+
         with open(file_path) as json_file:
             data = json.load(json_file)
             mods = data.get('Mods', [])

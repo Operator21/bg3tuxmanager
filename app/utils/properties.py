@@ -1,5 +1,6 @@
 APP_NAME = "BG3TuxManager"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 AUTHOR = "Operator21"
 MOD_SETTING_LSX_PATH = "/mnt/nvme_ssd/SteamLibrary/steamapps/compatdata/1086940/pfx/drive_c/users/steamuser/AppData/Local/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/modsettings.lsx"
 BALDURSGATE_MOD_FOLDER = "/mnt/nvme_ssd/SteamLibrary/steamapps/compatdata/1086940/pfx/drive_c/users/steamuser/AppData/Local/Larian Studios/Baldur's Gate 3/Mods"
+GAME_BIN_PATH = "/mnt/nvme_ssd/SteamLibrary/steamapps/common/Baldurs Gate 3/bin"
